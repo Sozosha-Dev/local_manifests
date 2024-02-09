@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="corfur" fetch="https://github.com/SM6375-project" />
+    <remote name="Lineage" fetch="https://github.com/LineageOS" />
+
+  <!-- Device-Tree e Device-Common -->
+    <project path="device/motorola/devon" name="android_device_motorola_corfur" remote="corfur" revision="fourteen"  />
+    <project path="device/motorola/hawao" name="android_proprietary_vendor_corfur" remote="corfur" revision="fourteen"  />
+    <project path="device/motorola/rhode" name="android_kernel_motorola_sm6375" remote="corfur" revision="fourteen"  />
+
+  <!-- Lineage-OS --> 
+  <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-21"  />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"  />
+  </manifest>
